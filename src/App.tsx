@@ -1,11 +1,9 @@
-import { Button } from "./components/button";
+import ButtonList from "./components/example/button-list";
 
 function App() {
   return (
     <div>
-      <h1>hello</h1>
-      <Button>버튼</Button>
-      <Button variant="secondary">버튼</Button>
+      <ButtonList />
     </div>
   );
 }
