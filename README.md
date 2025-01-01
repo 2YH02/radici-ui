@@ -10,6 +10,18 @@ First, install the package:
 npm install radici-ui
 ```
 
+## Add Tailwind and its configuration
+
+Install tailwindcss and its peer dependencies, then generate your tailwind.config.js and postcss.config.js files:
+
+```
+npm install -D tailwindcss postcss autoprefixer
+```
+
+```
+npx tailwindcss init -p
+```
+
 ## Add Components
 
 You can add components to your project using the following command:
