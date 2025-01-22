@@ -19,7 +19,7 @@ export interface ButtonProps
   fullWidth?: boolean;
   icon?: React.ReactNode;
   clickAction?: boolean;
-  className?: React.ComponentProps<"div">["className"];
+  className?: React.ComponentProps<"button">["className"];
 }
 
 const baseStyles = "duration-200 rounded outline-none appearance-none";

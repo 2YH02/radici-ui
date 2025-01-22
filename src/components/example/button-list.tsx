@@ -15,7 +15,7 @@ const ButtonList = () => {
   const sizeList: ButtonSize[] = ["sm", "md", "lg"];
 
   return (
-    <div className="space-y-8 p-6 bg-gray-50 min-h-screen">
+    <div className="space-y-8 p-6 min-h-screen">
       <h1 className="text-3xl font-bold text-center">
         Button Component Examples
       </h1>
@@ -121,7 +121,7 @@ const ButtonSection = ({
 }) => (
   <section>
     <h2 className="text-2xl font-semibold mb-4">{title}</h2>
-    <div className="flex flex-wrap gap-4 justify-center items-center">
+    <div className="flex flex-wrap gap-4 items-center">
       {children}
     </div>
   </section>
