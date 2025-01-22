@@ -1,5 +1,6 @@
-import { Button, type ButtonSize, type ButtonColor } from "../button";
-import SunIcon from "../icons/sun-icon";
+import { Button, type ButtonSize, type ButtonColor } from "../../button";
+import Section from "../../common/section";
+import SunIcon from "../../icons/sun-icon";
 
 const ButtonList = () => {
   const colors: ButtonColor[] = [
@@ -15,7 +16,7 @@ const ButtonList = () => {
   const sizeList: ButtonSize[] = ["sm", "md", "lg"];
 
   return (
-    <div className="space-y-8 p-6 min-h-screen">
+    <Section>
       <h1 className="text-3xl font-bold text-center">
         Button Component Examples
       </h1>
@@ -117,7 +118,7 @@ const ButtonList = () => {
           </Button>
         </div>
       </ButtonSection>
-    </div>
+    </Section>
   );
 };
 
