@@ -25,7 +25,7 @@ export interface ButtonProps
 const baseStyles = "duration-200 rounded outline-none appearance-none";
 
 const colorVariants = {
-  black: "bg-gray-950 text-white hover:bg-gray-800",
+  black: "bg-gray-950 text-white hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-50",
   white: "bg-white text-black hover:bg-gray-50",
   blue: "bg-blue-500 text-white hover:bg-blue-600",
   red: "bg-red-500 text-white hover:bg-red-600",

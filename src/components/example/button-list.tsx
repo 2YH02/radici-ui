@@ -92,6 +92,15 @@ const ButtonList = () => {
           />
           <Button
             icon={<SunIcon color="#ef4444" />}
+            className="m-2 flex flex-col justify-center gap-0 text-xs w-14 h-14 p-0"
+            appearance="borderless"
+            aria-label="Sun Icon Button"
+            clickAction
+          >
+            Icon
+          </Button>
+          <Button
+            icon={<SunIcon color="#ef4444" />}
             className="m-2"
             appearance="borderless"
             color="red"
@@ -121,9 +130,7 @@ const ButtonSection = ({
 }) => (
   <section>
     <h2 className="text-2xl font-semibold mb-4">{title}</h2>
-    <div className="flex flex-wrap gap-4 items-center">
-      {children}
-    </div>
+    <div className="flex flex-wrap gap-4 items-center">{children}</div>
   </section>
 );
 
