@@ -4,9 +4,11 @@ import Text from "../text/text";
 
 const ExampleSection = ({
   title,
+  className,
   children,
 }: {
   title: string;
+  className?: React.ComponentProps<"div">["className"];
   children: React.ReactNode;
 }) => (
   <section>
@@ -16,7 +18,8 @@ const ExampleSection = ({
     <div
       className={cn(
         "flex flex-wrap gap-4 justify-center items-center py-14 px-8 border",
-        borderMainColor
+        borderMainColor,
+        className
       )}
     >
       {children}
