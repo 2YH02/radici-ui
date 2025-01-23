@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router";
+import { borderMainColor } from "../../App";
+import cn from "../../utils/cn";
+import Text from "../text/text";
 
 const Header = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -17,12 +20,21 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full h-14 border-b border-solid border-gray-300 dark:border-[#333]">
-      <div className="flex  items-center px-4 max-w-[1200px] mx-auto h-full border-l border-r border-solid border-gray-300 dark:border-[#333]">
-        <NavLink to={"/"}>RadiciUI</NavLink>
+    <header
+      className={cn("fixed top-0 left-0 w-full h-14 border-b", borderMainColor)}
+    >
+      <div
+        className={cn(
+          "flex  items-center px-4 max-w-[1200px] mx-auto h-full border-l border-r",
+          borderMainColor
+        )}
+      >
+        <NavLink to={"/"}>
+          <Text>RadiciUI</Text>
+        </NavLink>
         <div className="grow" />
         <button onClick={handleDarkMode}>
-          다크모드 {darkMode ? "on" : "off"}
+          <Text>다크모드 {darkMode ? "on" : "off"}</Text>
         </button>
       </div>
     </header>
