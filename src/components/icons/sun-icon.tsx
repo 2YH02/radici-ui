@@ -1,9 +1,9 @@
-const SunIcon = ({ color }: { color?: string }) => {
+const SunIcon = ({ color, size = 20 }: { color?: string; size?: number }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="20"
-      height="20"
+      width={size}
+      height={size}
       viewBox="0 0 500 500"
       fill={color}
       className={!color ? "dark:fill-black fill-white" : ""}

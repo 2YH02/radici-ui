@@ -3,6 +3,7 @@ import Header from "./components/common/header";
 import SideBar from "./components/common/side-bar";
 import ButtonExample from "./components/pages/button/button-example";
 import Home from "./components/pages/home/home";
+import SwitchExample from "./components/pages/switch/switch-example";
 import TextExample from "./components/pages/text/text-example";
 import cn from "./utils/cn";
 
@@ -18,6 +19,7 @@ export interface ComponentRoute {
 const componentsUrl: ComponentRoute[] = [
   { name: "Text", path: "/text", element: <TextExample /> },
   { name: "Button", path: "/button", element: <ButtonExample /> },
+  { name: "Switch", path: "/switch", element: <SwitchExample /> },
 ];
 
 function App() {
