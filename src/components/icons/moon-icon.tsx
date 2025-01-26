@@ -2,7 +2,6 @@ const MoonIcon = ({ color, size = 20 }: { color?: string; size?: number }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill="#000000"
       width={size}
       height={size}
       viewBox="0 0 352.726 352.726"

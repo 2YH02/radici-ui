@@ -18,7 +18,9 @@ const TextExample = () => {
       <ExampleSection title="Typography" className="flex-col items-start">
         {typographyList.map((typography) => {
           return (
-            <Text typography={typography}>This is a {typography} text</Text>
+            <Text key={typography} typography={typography}>
+              This is a {typography} text
+            </Text>
           );
         })}
       </ExampleSection>
