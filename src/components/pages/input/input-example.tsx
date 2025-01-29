@@ -1,9 +1,9 @@
 import { useState } from "react";
+import cn from "../../../utils/cn";
 import ExampleSection from "../../common/example-section";
 import Section from "../../common/section";
 import SearchIcon from "../../icons/search-icon";
 import Input, { InputMessage, InputPlaceHolder } from "../../input/input";
-import cn from "../../../utils/cn";
 
 const InputExample = () => {
   const [formValues, setFormValues] = useState({
