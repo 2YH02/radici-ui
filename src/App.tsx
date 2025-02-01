@@ -5,6 +5,7 @@ import ButtonExample from "./components/pages/button/button-example";
 import Home from "./components/pages/home/home";
 import InputExample from "./components/pages/input/input-example";
 import SwitchExample from "./components/pages/switch/switch-example";
+import TabsExample from "./components/pages/tabs/tabs-example";
 import TextExample from "./components/pages/text/text-example";
 import cn from "./utils/cn";
 
@@ -22,6 +23,7 @@ const componentsUrl: ComponentRoute[] = [
   { name: "Button", path: "/button", element: <ButtonExample /> },
   { name: "Switch", path: "/switch", element: <SwitchExample /> },
   { name: "Input", path: "/input", element: <InputExample /> },
+  { name: "Tabs", path: "/tabs", element: <TabsExample /> },
 ];
 
 function App() {
