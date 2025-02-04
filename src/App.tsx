@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router";
 import Header from "./components/common/header";
 import SideBar from "./components/common/side-bar";
+import BadgeExample from "./components/pages/badge/badge-example";
 import ButtonExample from "./components/pages/button/button-example";
 import Home from "./components/pages/home/home";
 import InputExample from "./components/pages/input/input-example";
@@ -24,6 +25,7 @@ const componentsUrl: ComponentRoute[] = [
   { name: "Switch", path: "/switch", element: <SwitchExample /> },
   { name: "Input", path: "/input", element: <InputExample /> },
   { name: "Tabs", path: "/tabs", element: <TabsExample /> },
+  { name: "Badge", path: "/badge", element: <BadgeExample /> },
 ];
 
 function App() {
