@@ -5,7 +5,6 @@ import {
   useEffect,
   useState,
 } from "react";
-import styles from "./tabs.module.css";
 import cn from "../../utils/cn";
 
 interface TabsProps {
@@ -124,6 +123,6 @@ export const TabContent = ({
   const { activeTab } = tabsContext;
 
   if (activeTab === value) {
-    return <div className={styles.tabContent}>{children}</div>;
+    return <div className="p-4">{children}</div>;
   }
 };
