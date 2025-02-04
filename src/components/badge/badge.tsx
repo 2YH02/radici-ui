@@ -4,8 +4,8 @@ const baseStyles =
   "rounded-2xl bg-gray-950 text-white dark:bg-white dark:text-gray-950";
 
 const sizeVariants = {
-  sm: "px-5 py-1 text-xs",
-  md: "px-6 py-1 text-sm",
+  sm: "px-5 py-1 text-sm",
+  md: "px-6 py-[6px] text-md",
 };
 
 const borderVariants = {
