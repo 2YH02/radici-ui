@@ -9,6 +9,7 @@ import SwitchExample from "./components/pages/switch/switch-example";
 import TabsExample from "./components/pages/tabs/tabs-example";
 import TextExample from "./components/pages/text/text-example";
 import cn from "./utils/cn";
+import CarouselExample from "./components/pages/carousel/carousel-example";
 
 export const borderMainColor =
   "border-solid border-gray-300 dark:border-[#333]";
@@ -26,6 +27,7 @@ const componentsUrl: ComponentRoute[] = [
   { name: "Input", path: "/input", element: <InputExample /> },
   { name: "Tabs", path: "/tabs", element: <TabsExample /> },
   { name: "Badge", path: "/badge", element: <BadgeExample /> },
+  { name: "Carousel", path: "/carousel", element: <CarouselExample /> },
 ];
 
 function App() {

@@ -46,7 +46,10 @@ const SwitchExample = () => {
       </ExampleSection>
 
       {/* Custom Switch */}
-      <ExampleSection title="Custom Switch">
+      <ExampleSection
+        title="Custom Switch"
+        description="With SwitchBall component, you can freely customize your switch component with flexibility and ease."
+      >
         <Switch
           label="Night Mode"
           checked={isNightMode}

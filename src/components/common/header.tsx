@@ -34,7 +34,7 @@ const Header = () => {
         </NavLink>
         <div className="grow" />
         <button onClick={handleDarkMode}>
-          <Text>다크모드 {darkMode ? "on" : "off"}</Text>
+          <Text>Dark Mode {darkMode ? "On" : "Off"}</Text>
         </button>
       </div>
     </header>
